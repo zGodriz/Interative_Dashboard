@@ -1,0 +1,6 @@
+Invoice ID;Customer Type;Gender;Product Line;Unit Price;Quantity;Tax (5%);Total;Date;Time;Payment
+1001;Member;Male;Electronics;120.5;2;12.05;252.55;2025-02-27;10:30;Credit Card
+1002;Normal;Female;Clothing;45.0;3;6.75;141.75;2025-02-27;11:15;Cash
+1003;Member;Male;Groceries;15.75;5;3.94;82.69;2025-02-27;12:45;Debit Card
+1004;Normal;Female;Cosmetics;85.99;1;4.3;90.29;2025-02-27;14:20;Credit Card
+1005;Member;Male;Sports;200.0;1;10.0;210.0;2025-02-27;15:50;Cash
