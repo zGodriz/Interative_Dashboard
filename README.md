@@ -1,63 +1,66 @@
-# 📊 Dashboard de Faturamento
+# 📊 Revenue Dashboard
 
-Este é um projeto de **Dashboard Interativo** desenvolvido com **Streamlit** e **Plotly**, que permite visualizar o faturamento de uma empresa com base em dados extraídos de um arquivo CSV. O painel apresenta métricas e gráficos que auxiliam na análise financeira.
+This is an **Interactive Dashboard** project developed with **Streamlit** and **Plotly**, allowing users to visualize a company's revenue based on data extracted from a CSV file. The panel presents metrics and charts to assist in financial analysis.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
-- **Python 3** - Linguagem principal do projeto.
-- **Streamlit** - Framework para criação de dashboards interativos.
-- **Pandas** - Manipulação e tratamento de dados.
-- **Plotly** - Visualização de dados com gráficos dinâmicos.
+- **Python 3** - Main programming language.
+- **Streamlit** - Framework for creating interactive dashboards.
+- **Pandas** - Data manipulation and processing.
+- **Plotly** - Data visualization with dynamic charts.
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
 ```
 📁 Dashboard
-│-- 📄 dashboard.py  # Código principal
-│-- 📄 empresa_invoicesnew.csv  # Base de dados
-│-- 📄 README.md  # Documentação do projeto
+│-- 📄 dashboard.py  # Main script
+│-- 📄 empresa_invoicesnew.csv  # Data source
+│-- 📄 README.md  # Project documentation
 ```
 
-## 📊 Funcionalidades
+## 📊 Features
 
-✔️ Filtro de faturamento por mês via sidebar.<br>
-✔️ Gráfico de barras para visualizar faturamento diário.<br>
-✔️ Gráfico de barras para faturamento por categoria de produto.<br>
-✔️ Gráfico de pizza para distribuição de faturamento por tipo de pagamento.<br>
-✔️ Gráfico de dispersão para análise da tendência de faturamento.<br>
-✔️ Indicador de faturamento total no mês selecionado.<br>
+✔️ Revenue filtering by month via sidebar.<br>
+✔️ Bar chart for daily revenue visualization.<br>
+✔️ Bar chart for revenue by product category.<br>
+✔️ Pie chart for revenue distribution by payment type.<br>
+✔️ Scatter plot for revenue trend analysis.<br>
+✔️ Total revenue indicator for the selected month.<br>
 
-## 🛠 Como Executar o Projeto
+## 🛠 How to Run the Project
 
-1. Clone este repositório:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/your-username/repository-name.git
    ```
 
-2. Acesse a pasta do projeto:
+2. Navigate to the project folder:
    ```bash
    cd Dashboard
    ```
 
-3. Crie um ambiente virtual (opcional, mas recomendado):
+3. Create a virtual environment (optional but recommended):
    ```bash
    python -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-4. Instale as dependências:
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-5. Execute o dashboard:
+5. Run the dashboard:
    ```bash
    streamlit run dashboard.py
    ```
 
-6. Acesse no navegador o endereço exibido, geralmente `http://localhost:8501/`.
+6. Open the displayed URL in your browser, usually `http://localhost:8501/`.
+
 
 ---
+
+
 
 
 
